@@ -1,0 +1,84 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  li {
+	float: left;
+	border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+	border-right: none;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+	background-color: #111;
+  }
+  
+  .active {
+	background-color: #4CAF50;
+  }
+  .col-sm-12
+  {
+	  background-color: aqua;
+	 
+	 
+  }
+#cl6
+{
+	background-color: blue;
+
+}	
+	body { 
+		background: url("/images/abcd.jpg") no-repeat center center ; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover; 
+	  }
+	
+h1
+{
+	padding-top: 30px;
+	-webkit-text-fill-color:white;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	border-radius: 3px	solid black;
+}
+table.roundedCorners
+{	
+	border-radius: 15px 15px; ;
+    background: white;
+	width: 260px;
+	height: 200px;
+	
+}
+table.playbt
+{
+	border-radius: 5px;
+    background: white;
+	
+	width: 260px;
+	height: 20px;
+	padding: 50px;
+
+}
+#Button2
+{
+	margin-left: 60px;
+}
+#Button3
+{
+	margin-right: 30px;
+}

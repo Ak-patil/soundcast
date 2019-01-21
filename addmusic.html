@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music World</title>
+        <meta name= viewport content= "width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/add.css">
+        <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="./addmusic.js"></script>
+        <script
+          src="https://code.jquery.com/jquery-2.2.4.min.js"
+          integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+          crossorigin="anonymous">
+        </script>
+      </head>
+<body>
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="explore.html">Explore Music</a></li>
+  <li><a href="musicplayer.html" > Musicplayer</a></li>
+  <li><a href="addmusic.html">Add Music</a></li>
+</ul>
+<table>
+    <form method="GET">
+    <tr>
+       <th>
+         <h1>Add Music to Explorer</h1>
+       </th>
+    </tr>
+    <tr>
+      <td>
+          <center> <label for="usr">Enter The Title of Music</label></center>
+          <input id="tit" type="text" class="form-control" id="usr">
+      </td>
+    </tr>
+    <tr>
+      <td>
+          <div box-align: "center">
+           
+            <center><label><h4>Uplaod Music Thumbnail</h4></label></center>
+            <center><input id="thumbnail" type="file" name="thumbnail"  placeholder="Uplaod Music Thumbnail" ></center>
+              
+          </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+          <div box-align: "center">;
+              <center><label><h4>Upload Music </h4></label></center> 
+              <center> <input id="music" type="file" name="music" placeholder="Upload Music"></center>
+           </div>	
+           <br> <center><button id="uploadMusic" class="button" type="button" onclick="upload()">Upload</button></center>
+      </td>
+    </tr>
+    </form>
+  </table>
+</body>
+</html>
