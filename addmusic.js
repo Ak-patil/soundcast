@@ -15,7 +15,8 @@ function upload(){
               thumbnail: value2,
               title: value1
             },
-      success: function (data) {
+      success: function (data)
+       {
           alert('success');
           return false;
       }
